@@ -9,4 +9,4 @@ Run the command ```bundle install``` to install the required packages.
 
 ### To Test
 Run the command ```bundle exec jekyll serve```.  This will run the server and then it will also watch the files for changes.
-After running this command you should be able to access http://localhost:4000
+After running this command you should be able to access [http://localhost:4000](http://localhost:4000)
