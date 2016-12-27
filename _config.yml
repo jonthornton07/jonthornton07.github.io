@@ -2,6 +2,7 @@
 title: Jon Thornton | Software Engineer
 email: jon.thornton07@gmail.com
 description: Official website for Jon Thornton, Software Engineer
+author: jthornton07
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jonthornton.org" # the base hostname & protocol for your site
 twitter_username: jthornton07
@@ -9,3 +10,7 @@ github_username:  jonthornton07
 
 # Build settings
 markdown: kramdown
+
+# SEO tag
+gems:
+  - jekyll-seo-tag
