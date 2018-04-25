@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "X2NSLRY3QK.com.ncr.debug.The-Foundry",
+                "paths": [ "/resume/*"]
+            }
+        ]
+    }
+}
