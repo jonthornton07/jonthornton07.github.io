@@ -2,6 +2,12 @@
 	"applinks": {
 		"apps": [],
 		"details": [{
+			"appID": "E3ZYR9A7BS.com.ncr.hsr.KFCXpress",
+			"paths": ["/dleng/home", "/dleng/sites", "/dleng/barcode"]
+		}, {
+			"appID": "X2NSLRY3QK.com.ncr.enterprise.KFCXpress",
+			"paths": ["/dleng/home", "/dleng/sites", "/dleng/barcode"]
+		}, {
 			"appID": "X2NSLRY3QK.com.ncr.debug.KFCXpress",
 			"paths": ["/dleng/home", "/dleng/sites", "/dleng/barcode"]
 		}]
