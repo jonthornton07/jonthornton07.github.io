@@ -1,11 +1,9 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "X2NSLRY3QK.com.ncr.debug.The-Foundry",
-                "paths": [ "/resume/*"]
-            }
-        ]
-    }
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"appID": "X2NSLRY3QK.com.ncr.debug.KFCXpress",
+			"paths": ["/dleng/home", "/dleng/sites", "/dleng/barcode"]
+		}]
+	}
 }
