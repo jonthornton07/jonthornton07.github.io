@@ -1,21 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import styled from 'styled-components'
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './pages/home/Home';
+import Profile from './pages/profile/Profile';
+import Blog from './pages/blog/Blog';
+
+const Container = styled.div`
+  height: 100vh;
+  width: 100%;
+`
+
+function App() {
+  return (
+    <Router>
+      <Container>
+        <Header/>
+        <Route exact path="/" component={Home} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/blog" component={Blog} />
+        <Footer/>
+      </Container>
+  </Router>
+  );
 }
 
 export default App;
